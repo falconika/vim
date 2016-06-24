@@ -1,3 +1,8 @@
+:root
+{
+background-color: #e3e3e3;
+}
+
 @font-face {
     font-family: 'helsinkiregular';
     src: url('fonts/helsinki-webfont.eot');
@@ -9,7 +14,8 @@
     font-style: normal;
 
 }
-
+h1,h3
+{color:green}
 
 td
 {color: green;
@@ -18,17 +24,14 @@ font-family: 'helsinkiregular',"Times New Roman", Times, serif;
 
 }
 
-.1
-{ background-color: white;}
-.2
-{ background-color:black;}
-
-table tr:nth-child(2n)
+table tr:nth-child(2n+1)
 {
 background-color: #f3f3f3;
 }
-/* Lignes impaires */
-table tr:nth-child(2n+1)
+
+table tr:nth-child(2n)
 {
 background-color: #e3e3e3;
 }
+table td:nth-child(2n)
+{color: black}
