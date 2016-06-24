@@ -13,9 +13,22 @@
 
 td
 {color: green;
-font-size: 2 em}
+font-size: 2 em;
+font-family: 'helsinkiregular',"Times New Roman", Times, serif;
 
-td
+}
+
+.1
+{ background-color: white;}
+.2
+{ background-color:black;}
+
+table tr:nth-child(2n)
 {
-    font-family: 'helsinkiregular',"Times New Roman", Times, serif;
+background-color: #f3f3f3;
+}
+/* Lignes impaires */
+table tr:nth-child(2n+1)
+{
+background-color: #e3e3e3;
 }
