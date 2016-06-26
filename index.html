@@ -6,110 +6,132 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<header>
+  <nav>
+    <div class="navigation">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+
+
+    </div>
+  </nav>
+</header>
+
+<div class="move">
   <h1>VIM est un éditeur de texte</h1>
   <!-- Vim c'est trop de commande -->
   <table >
-  <tr>
-    <td class="1">gauche</span>    </td>
-    <td>  touche h  </td>
+    <th>  se déplacer dans Vim</th>
 
-  </tr>
+      <tr>
+        <td class="1">gauche</span>    </td>
+        <td>  touche h  </td>
+      </tr>
 
-  <tr>
-    <td> droite   </td>
-    <td> touche l   </td>
-  </tr>
+      <tr>
+        <td> droite   </td>
+        <td> touche l   </td>
+      </tr>
 
-  <tr>
-    <td> bas   </td>
-    <td> touche j   </td>
-  </tr>
+      <tr>
+        <td> bas   </td>
+        <td> touche j   </td>
+      </tr>
 
-  <tr>
-    <td> haut   </td>
-    <td> touche k   </td>
-  </tr>
+      <tr>
+        <td> haut   </td>
+        <td> touche k   </td>
+      </tr>
 
-  <tr>
-    <td> Pour entrer dans Vim (à l’invite $)   </td>
-    <td> tapez vim [Fichier] < entrée>   </td>
-  </tr>
+      <tr>
+        <td> Pour entrer dans Vim (à l’invite $)   </td>
+        <td> tapez vim [Fichier] < entrée>   </td>
+      </tr>
 
-  <tr>
-    <td> Pour quitter Vim sans enregistrer    </td>
-    <td> tapez <Échap> :q ! < entrée>   </td>
-  </tr>
+      <tr>
+        <td> Pour quitter Vim sans enregistrer    </td>
+        <td> tapez <Échap> :q ! < entrée>   </td>
+      </tr>
 
-  <tr>
-    <td>Pour quitter Vim en enregistrant  </td>
-    <td> tapez <Échap> :x   </td>
-  </tr>
+      <tr>
+        <td>Pour quitter Vim en enregistrant  </td>
+        <td> tapez <Échap> :x   </td>
+      </tr>
+    </table>
+  </div>
 
-  <tr>
-    <td> Pour effacer un caractère sous le curseur en mode normal   </td>
-    <td>  tapez x   </td>
-  </tr>
+  <table>
 
-  <tr>
-    <td> Pour insérer du texte au niveau du curseur en mode normal   </td>
-    <td> tapez i   </td>
+    <tr>
+      <td> Pour insérer du texte au niveau du curseur en mode normal   </td>
+      <td> tapez i Vous êtes alors dans un mode insertion   </td>
+    </tr>
 
-  </tr>
-  <tr>
-    <td> Vous êtes alors dans un mode insertion   </td>
-    <td> vous pouvez quitter en
-tapant <Échap>   </td>
+    <tr>
+      <td> Pour quitter  </td>
+      <td> tapez <Échap>   </td>
+    </tr>
 
-  </tr>
-  <tr>
-    <td> Pour annuler une commande
-partiellement tapée dont vous ne voudriez plus   </td>
-    <td> tapez <Échap>   </td>
 
-  </tr>
-  <h3>Effacement et annulation</h3>
-  <tr>
-    <td>Pour effacer du curseur jusqu’à la fin d’un mot    </td>
-    <td> tapez dw   </td>
+  <th>Effacement et annulation </th>
+    <tr>
+      <td> Pour effacer un caractère sous le curseur en mode normal   </td>
+      <td>  tapez x   </td>
+    </tr>
 
-  </tr>
-  <tr>
-    <td>Pour effacer du curseur jusqu’à la fin d’une ligne  </td>
-    <td> tapez d$   </td>
+    <tr>
+      <td>Pour effacer du curseur jusqu’à la fin d’un mot    </td>
+      <td> tapez dw   </td>
+    </tr>
 
-  </tr>
-  <tr>
-    <td> Pour effacer toute une ligne   </td>
-    <td> tapez dd    </td>
+    <tr>
+      <td> Pour annuler une commande
+  partiellement tapée dont vous ne voudriez plus <br>  </td>
+      <td> tapez <Échap>   </td>
+    </tr>
 
-  </tr>
-  <tr>
-    <td>Le format d’une commande en mode normal est :    </td>
-    <td> [nombre] commande objet où</td>
-  </tr>
-  <tr>
-    <td>nombre :    </td>
-    <td>c’est combien de fois est répétée la commande.    </td>
+    <tr>
+      <td>Pour effacer du curseur jusqu’à la fin d’une ligne  </td>
+      <td> tapez d$   </td>
+    </tr>
 
-  </tr>
-  <tr>
-    <td> commande :   </td>
-    <td>c’est ce qu’il faut faire, par exemple d pour effacer     </td>
+    <tr>
+      <td> Pour effacer toute une ligne   </td>
+      <td> tapez dd    </td>
+    </tr>
 
-  </tr>
-  <tr>
-    <td>objet     </td>
-    <td>c’est ce sur quoi la commande devrait agir, par exemple l (letter),    </td>
+    <tr>
+      <td>Le format d’une commande en mode normal est :    </td>
+      <td> [nombre] commande objet où</td>
+    </tr>
 
-  </tr>
-  <tr>
-    <td>Pour annuler des actions précédentes    </td>
-    <td> tapez u comme undo   </td>
+    <tr>
+      <td>nombre :    </td>
+      <td>c’est combien de fois est répétée la commande.    </td>
+    </tr>
 
-  </tr>
-  <tr>
-    <td>  Pour annuler tous les changements sur une ligne   </td>
-    <td> tapez U majuscule.   </td>
+    <tr>
+      <td> commande :   </td>
+      <td>c’est ce qu’il faut faire, par exemple d pour effacer     </td>
+    </tr>
+
+    <tr>
+      <td>objet     </td>
+      <td>c’est ce sur quoi la commande devrait agir, par exemple l (letter),    </td>
+    </tr>
+
+    <tr>
+      <td>Pour annuler des actions précédentes    </td>
+      <td> tapez u comme undo   </td>
+    </tr>
+
+    <tr>
+      <td>  Pour annuler tous les changements sur une ligne   </td>
+      <td> tapez U majuscule.   </td>
     </table>
 </body>
 </html>
