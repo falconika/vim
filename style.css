@@ -1,6 +1,6 @@
 :root
 {
-background-color: #e3e3e3;
+background-color:#00cc00;
 }
 
 @font-face {
@@ -12,10 +12,16 @@ background-color: #e3e3e3;
          url('fonts/helsinki-webfont.svg#helsinkiregular') format('svg');
     font-weight: normal;
     font-style: normal;}
+body{
+    display:block;
+}
 
-
+.nav
+{   display: block ;
+    margin-left: auto;
+    margin-right: auto;}
 tr
-{color: green;
+{color: black;
 font-size: 2 em;
 font-family: 'helsinkiregular',"Times New Roman", Times, serif;
 text-align: justify;
@@ -32,15 +38,21 @@ table tr:nth-child(2n)
 background-color: #e3e3e3;
 }
 table td:nth-child(2n)
-{color: black}
+{color: black;
+font-size: 0.9em;
+font-family: fantasy;}
 
 
 th
 {
-color: green;
+color: black;
 font-size: 3em;
-background-color:black;
+background-color: #00cc00;
 }
-table
-{width: 30%; height: 60%;
+body
+{width: 50%; height: 100%;
+    display: block ;
+        margin-left: auto;
+        margin-right: auto;}
+    tr
 }
